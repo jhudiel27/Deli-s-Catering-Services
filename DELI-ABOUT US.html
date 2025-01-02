@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Deli's Catering Services</title>
+    <link rel="stylesheet" href="STYLE.css">
+    <link rel="icon" href="Delis.jpg">
+
+</head>
+<body class="DELI-ABOUT-page">
+    <header>
+        <nav class="navbar">
+            <div class="logo">Deli's Catering Services</div>
+            <ul class="nav-links">
+                <li><a href="DELI.html">Home</a></li>
+                <li><a href="DELI-SERVICES.html">Services</a></li>
+                <li><a href="DELI-ABOUT US.html">About Us</a></li>
+                <li><a href="DELI-CONTACT US.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h1>About Us</h1>
+        <p>Welcome to <strong>Deli's Catering Services</strong>, your go-to catering provider for all your event needs. Based in Bucal, Calamba, we specialize in delivering exceptional catering services for a wide range of events. Whether it's a small gathering, a grand wedding, or a corporate function, we ensure that every event is memorable with our mouth-watering dishes and excellent service.</p>
+
+        <h1>Our Services</h1>
+        <p>We cater to various types of events, including:</p>
+        <ul>
+            <li><strong>Weddings</strong> - From intimate ceremonies to grand receptions, we offer a wide selection of dishes to make your special day unforgettable.</li>
+            <li><strong>Birthday Parties</strong> - Celebrate with delicious food that will delight your guests, big or small!</li>
+            <li><strong>Corporate Events</strong> - Professional catering services for meetings, conferences, and office parties.</li>
+            <li><strong>Anniversaries</strong> - Make your anniversary celebration extra special with our exquisite menu options.</li>
+            <li><strong>Private Parties</strong> - Any private event, from family gatherings to reunions, we’ve got you covered.</li>
+        </ul>
+
+        <h1>Why Choose Us?</h1>
+        <p>At Deli's Catering Services, we are committed to providing the highest quality food and service. Our team of experienced chefs and event coordinators work closely with you to customize a menu that fits your preferences and event theme. We source only the freshest ingredients to ensure that every dish is delicious and visually appealing.</p>
+
+        <p>Our service extends beyond food; we also offer full event coordination to make sure everything runs smoothly. From setup to cleanup, we ensure that you can enjoy your event without worrying about the details.</p>
+
+        <h1>Our Location</h1>
+        <p>We are proud to be based in Bucal, Calamba, and proudly serve the surrounding areas. Our convenient location allows us to provide timely and efficient services to all our clients within the region.</p>
+    </section>
+<br><br><br>
+
+<script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        const footer = document.querySelector('.footer');
+
+        let lastScrollY = window.scrollY;
+
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > lastScrollY) {
+                // User is scrolling down, show the footer
+                footer.classList.add('visible');
+            } else {
+                // User is scrolling up, hide the footer
+                footer.classList.remove('visible');
+            }
+
+            lastScrollY = window.scrollY;
+        });
+    });
+</script>
+
+    <footer class="footer">
+        <p>&copy; 2024 Jhudiel Blanca Rana. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

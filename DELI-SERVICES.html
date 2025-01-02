@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Deli's Catering Services</title>
+    <link rel="stylesheet" href="STYLE.css">
+    <link rel="icon" href="Delis.jpg">
+
+</head>
+<body class="DELI-SERVICES-page">
+    <header>
+        <nav class="navbar">
+            <div class="logo">Deli's Catering Services</div>
+            <ul class="nav-links">
+                <li><a href="DELI.html">Home</a></li>
+                <li><a href="DELI-SERVICES.html">Services</a></li>
+                <li><a href="DELI-ABOUT US.html">About Us</a></li>
+                <li><a href="DELI-CONTACT US.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="services">
+        <h1>Our Services</h1>
+        <div class="services-container">
+            <!-- Package 1 Card -->
+            <div class="service-card">
+                <h2>Package 1</h2>
+                <ul>
+                    <li>Item 1: 1 Main Course (Your Choice)</li>
+                    <li>Item 2: 2 Side Dishes (Your Choice)</li>
+                    <li>Item 3: 1 Option for Desert</li>
+                    <li>Item 4: 1 Options for Drink</li>
+                </ul>
+            </div>
+    
+            <!-- Package 2 Card -->
+            <div class="service-card">
+                <h2>Package 2</h2>
+                <ul>
+                    <li>Item 1: 2 Main Course (Your Choice)</li>
+                    <li>Item 2: 3 Side Dishes (Your Choice)</li>
+                    <li>Item 3: 1 Option for Desert</li>
+                    <li>Item 4: 1 Option for Drink</li>
+                </ul>
+            </div>
+    
+            <!-- Package 3 Card -->
+            <div class="service-card">
+                <h2>Package 3</h2>
+                <ul>
+                    <li>Item 1: 2 Main Course (Your Choice)</li>
+                    <li>Item 2: 3 Side Dishes (Your Choice)</li>
+                    <li>Item 3: 2 Options for Deserts</li>
+                    <li>Item 4: 2 Options for Drinks</li>
+                </ul>
+            </div>
+             <!-- Package 1 Card -->
+             <div class="service-card">
+                <h2>Package 1</h2>
+                <ul>
+                    <li>Item 1: 3 Main Course (Your Choice)</li>
+                    <li>Item 2: 4 Side Dishes (Your Choice)</li>
+                    <li>Item 3: 2 Options for Deserts</li>
+                    <li>Item 4: 3 Options for Drinks</li>
+                </ul>
+            </div>
+    
+            <!-- Package 2 Card -->
+            <div class="service-card">
+                <h2>Package 2</h2>
+                <ul>
+                    <li>Item 1: 4 Main Course (Your Choice)</li>
+                    <li>Item 2: 5 Side Dishes (Your Choice)</li>
+                    <li>Item 3: 3 Options for Deserts</li>
+                    <li>Item 4: 3 Options for Drinks</li>
+                </ul>
+            </div>
+    
+            <!-- Package 3 Card -->
+            <div class="service-card">
+                <h2>Package 3</h2>
+                <ul>
+                    <li>Item 1: 4 Main Course (Your Choice)</li>
+                    <li>Item 2: 5 Side Dishes (Your Choice)</li>
+                    <li>Item 3: 5 Options for Deserts</li>
+                    <li>Item 4: 2 Options for Drinks</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br>
+    
+    <script>
+    
+        document.addEventListener('DOMContentLoaded', function () {
+            const footer = document.querySelector('.footer');
+    
+            let lastScrollY = window.scrollY;
+    
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > lastScrollY) {
+                    // User is scrolling down, show the footer
+                    footer.classList.add('visible');
+                } else {
+                    // User is scrolling up, hide the footer
+                    footer.classList.remove('visible');
+                }
+    
+                lastScrollY = window.scrollY;
+            });
+        });
+    </script>
+    
+
+
+    <footer class="footer">
+        <p>&copy; 2024 Jhudiel Blanca Rana. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

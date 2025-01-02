@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Deli's Catering Services</title>
+    <link rel="stylesheet" href="STYLE.css">
+    <link rel="icon" href="Delis.jpg">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Deli's Catering Services</div>
+            <ul class="nav-links">
+                <li><a href="DELI.html">Home</a></li>
+                <li><a href="DELI-SERVICES.html">Services</a></li>
+                <li><a href="DELI-ABOUT US.html">About Us</a></li>
+                <li><a href="DELI-CONTACT US.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to Deli's Catering Services</h1>
+        <p>Your go-to for delicious meals and unforgettable events.</p>
+        <br><br>
+        <div class="cards">
+            <div class="card">
+                <img src="seafood.jpg" alt="Sample Meal 1">
+                Sample Seafood Meal 
+            </div><br><br><br>
+            <div class="card">
+                <img src="pasta.jpg" alt="Sample Meal 2">
+                Sample Pasta Meal 
+            </div><br><br><br>
+            <div class="card">
+                <img src="sidedish" alt="Sample Meal 3">
+                Sample Chicken Meal 
+            </div><br><br><br>
+            <div class="card">
+                <img src="meat.jpg" alt="Sample Meal 3">
+                Sample Meat Meal 
+            </div>
+            <br><br><br>
+            <div class="card">
+                <img src="veggie1" alt="Sample Meal 1">
+                Sample Seafood Meal 
+            </div><br><br><br>
+            <div class="card">
+                <img src="pasta.jpg" alt="Sample Meal 2">
+                Sample Pasta Meal 
+            </div><br><br><br>
+            <div class="card">
+                <img src="chicken.jpg" alt="Sample Meal 3">
+                Sample Chicken Meal 
+            </div><br><br><br>
+            <div class="card">
+                <img src="meat.jpg" alt="Sample Meal 3">
+                Sample Meat Meal 
+            </div>
+            <br><br><br>
+            <div class="card">
+                <img src="seafood.jpg" alt="Sample Meal 1">
+                Sample Seafood Meal 
+            </div><br><br><br>
+            <div class="card">
+                <img src="veggie2.jpg" alt="Sample Meal 2">
+                Sample Pasta Meal 
+            </div><br><br><br>
+            <div class="card">
+                <img src="chicken.jpg" alt="Sample Meal 3">
+                Sample Chicken Meal 
+            </div><br><br><br>
+            <div class="card">
+                <img src="sidedish" alt="Sample Meal 3">
+                Sample Meat Meal 
+            </div><br><br><br>
+            <div class="card">
+                <img src="veggie1" alt="Sample Meal 3">
+                Sample Chicken Meal 
+            </div><br><br><br>
+            <div class="card">
+                <img src="meat.jpg" alt="Sample Meal 3">
+                Sample Meat Meal
+            </div><br><br><br>
+            <div class="card">
+                <img src="chicken.jpg" alt="Sample Meal 3">
+                Sample Meat Meal
+            </div><br><br><br>
+            <div class="card">
+                <img src="desert1.jpg" alt="Sample Meal 3">
+                Sample Desert
+            </div><br><br><br>
+            <div class="card">
+                <img src="desert2.jpg" alt="Sample Meal 3">
+                Sample Desert
+            </div><br><br><br>
+            <div class="card">
+                <img src="desert3.jpg" alt="Sample Meal 3">
+                Sample Desert
+            </div><br><br><br>
+            <div class="card">
+                <img src="desert4.jpg" alt="Sample Meal 3">
+                Sample Desert
+            </div><br><br><br>
+            <div class="card">
+                <img src="desert5.jpg" alt="Sample Meal 3">
+                Sample Desert
+            </div><br><br><br>
+            <div class="card">
+                <img src="drink1.webp" alt="Sample Meal 3">
+                Sample Drink
+            </div><br><br><br>
+            <div class="card">
+                <img src="drink2.webp" alt="Sample Meal 3">
+                Sample Drink
+            </div><br><br><br>
+            <div class="card">
+                <img src="drink3.jpg" alt="Sample Meal 3">
+                Sample Drink
+            </div><br><br><br>
+            <div class="card">
+                <img src="drink4.jpg" alt="Sample Meal 3">
+                Sample Drink
+            </div><br><br><br>
+            <div class="card">
+                <img src="drink5.jpg" alt="Sample Meal 3">
+                Sample Drink
+            </div>
+
+
+    </section>
+<br><br><br><br>
+    
+    
+<script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        const footer = document.querySelector('.footer');
+
+        let lastScrollY = window.scrollY;
+
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > lastScrollY) {
+                // User is scrolling down, show the footer
+                footer.classList.add('visible');
+            } else {
+                // User is scrolling up, hide the footer
+                footer.classList.remove('visible');
+            }
+
+            lastScrollY = window.scrollY;
+        });
+    });
+</script>
+
+    <footer class="footer">
+        <p>&copy; 2024 Jhudiel Blanca Rana. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
